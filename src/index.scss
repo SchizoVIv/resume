@@ -1,18 +1,25 @@
+@import url('./components/variables.scss');
+@import url('~bootstrap/scss/bootstrap');
+@import url('./components/Header/Header.scss');
+@import url('./components/HeroArea/HeroArea.scss');
+@import url('./components/Search/Search.scss');
+@import url('./components/Cards/Cards.scss');
+
 @font-face {
-  font-weight: 700;
-  font-family: 'OpenSans';
-  font-style: normal;
-  src: url("./assets/fonts/OpenSans-Bold.woff2") format("woff2");
+	font-weight: 700;
+	font-family: 'OpenSans';
+	font-style: normal;
+	src: url('./assets/fonts/OpenSans-Bold.woff2') format('woff2');
 }
 
 @font-face {
-  font-weight: 400;
-  font-family: 'OpenSans';
-  font-style: normal;
-  src: url("./assets/fonts/OpenSans-Regular.woff2") format("woff2");
+	font-weight: 400;
+	font-family: 'OpenSans';
+	font-style: normal;
+	src: url('./assets/fonts/OpenSans-Regular.woff2') format('woff2');
 }
 
 html,
 body {
-  font-family: 'OpenSans', sans-serif;
+	font-family: 'OpenSans', sans-serif;
 }

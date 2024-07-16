@@ -1,14 +1,18 @@
 import React from 'react'
 // import './App.css'; // импорт стилей CSS
+import Header from './components/Header/Header'
+import HeroArea from './components/HeroArea/HeroArea'
+import Search from './components/Search/Search'
+import Cards from './components/Cards/Cards'
 
 const App: React.FC = () => {
 	return (
 		<div className='App'>
-			<header className='App-header'>
-				<h1>Welcome to My React App</h1>
-			</header>
+			<Header />
 			<main className='App-main'>
-				<p>This is the main content of the application.</p>
+				<HeroArea />
+				<Search />
+				<Cards />
 			</main>
 			<footer className='App-footer'>
 				<p>Footer information goes here.</p>

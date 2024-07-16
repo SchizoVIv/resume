@@ -1,0 +1,49 @@
+.card-img {
+	max-width: 200px;
+}
+
+.cards-item {
+	height: 100vh;
+	max-height: 418px;
+	border-radius: 30px;
+}
+
+.normal-bg {
+	background: linear-gradient(
+		0deg,
+		$mood-normal-color 0%,
+		$transparent-color 90%
+	);
+}
+
+.cocketly-bg {
+	background: linear-gradient(
+		0deg,
+		$mood-cocketly-color 0%,
+		$transparent-color 90%
+	);
+}
+
+.angry-bg {
+	background: linear-gradient(
+		0deg,
+		$mood-angry-color 0%,
+		$transparent-color 90%
+	);
+}
+
+.excited-bg {
+	background: linear-gradient(
+		0deg,
+		$mood-excited-color 0%,
+		$transparent-color 90%
+	);
+}
+
+.playful-bg {
+	background: linear-gradient(
+		0deg,
+		$mood-playful-color 0%,
+		$transparent-color 90%
+	);
+}
