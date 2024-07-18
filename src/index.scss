@@ -1,10 +1,9 @@
-@import url('./components/variables.scss');
-@import url('~bootstrap/scss/bootstrap');
-@import url('./components/Header/Header.scss');
-@import url('./components/HeroArea/HeroArea.scss');
-@import url('./components/Search/Search.scss');
-@import url('./components/Cards/Cards.scss');
-
+@import './components/variables.scss';
+@import '~bootstrap/scss/bootstrap';
+@import './components/Header/Header.scss';
+@import './components/HeroArea/HeroArea.scss';
+@import './components/Cards/Cards.scss';
+@import './components/Search/Search.scss';
 @font-face {
 	font-weight: 700;
 	font-family: 'OpenSans';
@@ -21,5 +20,7 @@
 
 html,
 body {
+  background-color: $basic-bg-color;
+  color: $basic-font-color;
 	font-family: 'OpenSans', sans-serif;
 }

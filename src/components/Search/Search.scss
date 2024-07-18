@@ -1,0 +1,70 @@
+.form-inline {
+  position: relative;
+  padding: 0;
+}
+
+.form-control {
+  color: $acent-font-color;
+  transition: all ease .5s;
+  &:focus {
+    border: none;
+    box-shadow: none;
+  }
+}
+
+.search-box {
+  background-color: $basic-elem2-color;
+  display: flex;
+  border-radius: 0 30px 30px 0;
+  z-index: 2;
+}
+
+.btn-search {
+  border-radius: 18px;
+}
+
+.btn-filters-list {
+  z-index: 1;
+  height: 52px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.button-text {
+  margin-right: 40px;
+}
+
+.btn {
+  background-color: $acent-color;
+}
+
+.btn-options {
+  background-color: transparent;
+  position: relative;
+
+  &::after {
+    content: '+';
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+  }
+}
+
+.card-filter-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-filter-bg {
+  background-color: $basic-elem1-color;
+}
+
+

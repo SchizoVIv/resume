@@ -6,7 +6,7 @@ const HeroArea: React.FC = () => {
 			<div className='container'>
 				<div
 					id='carouselExampleFade'
-					className='carousel carousel-dark slide carousel-fade'
+					className='carousel carousel-dark slide carousel-fade my-5'
 				>
 					<div className='carousel-inner'>
 						<div className='carousel-item active'>
